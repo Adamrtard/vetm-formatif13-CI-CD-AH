@@ -41,5 +41,9 @@ jobs:
 
       - name: Exécuter les tests
         run: mvn -B test --file pom.xml
+
       - name: Lint
         run: mvn -B formatter:validate
+
+      - name: verify jacoco
+        run: mvn verify
