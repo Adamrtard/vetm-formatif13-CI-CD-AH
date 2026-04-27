@@ -13,7 +13,7 @@ class MainTest {
     }
 
     @Test
-    void testQuiPassePas(){
+    void testQuiPassePas() {
         assertTrue(true);
     }
 }
